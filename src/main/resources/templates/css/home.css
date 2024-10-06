@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header_ul,.container_navba ,.review_navba {
+    display: flex;
+     padding: 0 30px;
+    align-items: center;
+}
+.header_li,.container_item,.review_item{
+    padding: 0 30px;
+    list-style: none;
+}
+.header_login ,.from-search{
+    display: flex;
+}
+.header_li a ,.container_item a,.review_item a{
+    text-decoration: none;
+    color: black;
+}
+.img_navar img{
+    width: 150px;
+}
+.header_li img{
+    width: 100px;
+}
+.slide-form{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.containers {
+    margin: 30px 30px;
+}
+.container_m ,.review_m {
+    font-size: 30px;
+    font-weight: 500;
+}
+.container_movie{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    margin: 50px;
+
+
+
+}
+.svg {
+    width: 45px;
+    padding: 0 10px;
+}
+.input-search {
+    width: 250px;
+    padding: 0 5px;
+    outline: none;
+
+}
+.btn-submit{
+    border: none;
+    background-color: white;
+}
+.container_h{
+    width: 24%;
+    padding: 20px 0;
+}
+.container_h img{
+    width: 100%;
+    border-radius: 5px;
+}
+.container_h h1{
+    padding: 10px 0;
+font-size: 20px;
+}
+.container_soon{
+    display: flex;
+    justify-content: center;
+}
+.review_content{
+    width: 50%;
+}
+.review_img img{
+    width: 90%;
+}
+.review_social{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    column-gap:10px;
+}
+.reviews{
+    margin: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.social_movie {
+
+}
+.social_h {
+    display: flex;
+}
+.social_img {
+width: 200px;
+}
+.social_title {
+padding: 0 40px;
+}
+.social_titles {
+    padding: 10px 0;
+}
+.social_icon {
+    width: 15px;
+    color: white;
+
+}
+.social_p{
+    color: white;
+}
+.icon-span {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 20px;
+
+
+}
+.background{
+    background-color: #0a4ce6e5;
+
+}
+.white{
+    background-color:    rgb(240,240,240);
+
+}
+.social_number,.social_p{
+    margin: 0;
+    padding: 0 10px;
+
+
+}
+
+.social_svg {
+    display: flex;
+    align-items: center;
+
+}
+.social_h1 {
+    font-size: 20px;
+    line-height: 33px;
+}
